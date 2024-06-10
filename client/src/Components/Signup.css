@@ -1,0 +1,48 @@
+.signup-container {
+    background: url("./Assets/images/backgroundimg.jpg") no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .signup-card {
+    border-radius: 15px;
+    overflow: hidden;
+  }
+  
+  .signup-card-body {
+    background: #fff;
+    padding: 2rem;
+  }
+  
+  .signup-card-body .form-control {
+    border-radius: 8px;
+    padding: 0.5rem;
+    font-size: 0.875rem;
+  }
+  
+  .login-link {
+    margin-top: 1rem;
+    font-size: 1rem;
+    text-align: center;
+  }
+  
+  .login-link-text {
+    color: #2575fc;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .login-link-text:hover {
+    text-decoration: underline;
+  }
+  #backgroundimg img{
+width: 100%;
+height:650px;
+object-fit: cover;
+  }
+  .subbackgrund{
+    background-color: #141313;
+  }
