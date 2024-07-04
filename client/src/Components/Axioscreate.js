@@ -1,6 +1,6 @@
 import axios from 'axios';
-// const SampleUrl = 'https://fragrances-servers.vercel.app/';
-const SampleUrl = 'http://localhost:5000';
+const SampleUrl = 'https://fragrance-server.onrender.com/';
+// const SampleUrl = 'http://localhost:5000';
 // Retrieve token and password from localStorage
 const ecomdata = JSON.parse(localStorage.getItem("persist:ecomdata"));
 const loginInfo = ecomdata?.login && JSON.parse(ecomdata.login)?.LoginInformation?.[0];
